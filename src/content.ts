@@ -8,7 +8,7 @@ export const GENDER: T.Gender               = 'Male';
 // Profile image is of size 128px x 128px
 export const PROFILE_IMAGE: T.ProfileImage  = 'profile.jpg';
 
-// Can be either a filename or color code
+// Can be either a filename or color code. Height is 320px.
 // Example: banner.jpg or #1D31DB
 export const BANNER_IMAGE: T.BannerImage    = 'banner.jpg';
 

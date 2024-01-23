@@ -1,4 +1,5 @@
 ---
+import Banner from "../components/intro/Banner.astro";
 import Intro from "../components/intro/Intro.astro";
 import { THEME, TITLE } from "../content";
 ---
@@ -11,8 +12,8 @@ import { THEME, TITLE } from "../content";
 		<meta name="generator" content={Astro.generator} />
 		<title>{TITLE} | Linksplash</title>
 	</head>
-	<body>
-		<h1>{TITLE}</h1>
+	<body class="bg-zinc-100 dark:bg-zinc-900">
+		<Banner />
         <div class="w-100 flex flex-col items-center">
             <Intro />
         </div>
