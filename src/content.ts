@@ -14,3 +14,57 @@ export const BANNER: T.Banner               = '#a855f7';
 
 // Can be either 'light' or 'dark'
 export const THEME: T.Theme                 = 'light';
+
+// **** ADD LINKS HERE ****
+export const LINKS: T.Links[] = [
+    {
+        sectionTitle: 'Social Media',
+        links: [
+            {
+                title: 'Facebook',
+                description: 'My Facebook Page',
+                url: 'https://www.facebook.com'
+            },
+            {
+                title: 'Twitter',
+                description: 'My Twitter Page',
+                url: 'https://www.twitter.com'
+            },
+            {
+                title: 'Instagram',
+                description: 'My Instagram Page',
+                url: 'https://www.instagram.com'
+            },
+            {
+                title: 'LinkedIn',
+                description: 'My LinkedIn Page',
+                url: 'https://www.linkedin.com'
+            }
+        ]
+    },
+    {
+        sectionTitle: 'Social Media',
+        links: [
+            {
+                title: 'Facebook',
+                description: 'My Facebook Page',
+                url: 'https://www.facebook.com'
+            },
+            {
+                title: 'Twitter',
+                description: 'My Twitter Page',
+                url: 'https://www.twitter.com'
+            },
+            {
+                title: 'Instagram',
+                description: 'My Instagram Page',
+                url: 'https://www.instagram.com'
+            },
+            {
+                title: 'LinkedIn',
+                description: 'My LinkedIn Page',
+                url: 'https://www.linkedin.com'
+            }
+        ]
+    }
+]

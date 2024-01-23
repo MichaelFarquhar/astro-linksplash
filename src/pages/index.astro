@@ -1,6 +1,7 @@
 ---
 import Banner from "../components/intro/Banner.astro";
 import Intro from "../components/intro/Intro.astro";
+import Links from "../components/links/Links.astro";
 import { THEME, TITLE } from "../content";
 ---
 
@@ -17,5 +18,18 @@ import { THEME, TITLE } from "../content";
         <div class="w-100 flex flex-col items-center">
             <Intro />
         </div>
+        <div class="mt-64 flex flex-col items-center w-100">
+            <Links />
+        </div>
 	</body>
 </html>
+
+<style is:global>
+    @font-face {
+        font-family: 'Nunito';
+        src: url('/fonts/Nunito-VariableFont_wght.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+</style>
