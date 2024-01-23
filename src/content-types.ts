@@ -4,6 +4,6 @@ export type Location        = string;
 export type Gender          = string;
 
 export type ProfileImage    = string;
-export type BannerImage     = string;
+export type Banner          = string;
 
 export type Theme           = 'light' | 'dark';

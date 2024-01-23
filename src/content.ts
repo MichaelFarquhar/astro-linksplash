@@ -10,7 +10,7 @@ export const PROFILE_IMAGE: T.ProfileImage  = 'profile.jpg';
 
 // Can be either a filename or color code. Height is 320px.
 // Example: banner.jpg or #1D31DB
-export const BANNER_IMAGE: T.BannerImage    = 'banner.jpg';
+export const BANNER: T.Banner               = '#a855f7';
 
 // Can be either 'light' or 'dark'
 export const THEME: T.Theme                 = 'light';

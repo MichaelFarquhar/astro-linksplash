@@ -1,1 +1,11 @@
-<div class="w-100 h-80 bg-purple-500"></div>
+---
+import { BANNER } from "../../content";
+
+const isBannerColorCode = typeof BANNER === 'string' && BANNER.trim().startsWith('#');
+
+const baseStyles = "w-100 h-80";
+---
+
+{isBannerColorCode &&
+    <div class={baseStyles} style={`background-color: ${BANNER};`}></div>
+}
