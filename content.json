@@ -1,0 +1,41 @@
+{
+    "title": "Global Title",
+    "description": "Global Description",
+    "objects": [
+        {
+            "id": "Object1",
+            "links": [
+                {
+                    "url": "https://example.com/link1",
+                    "title": "Link 1",
+                    "description": "Description for Link 1"
+                },
+                {
+                    "url": "https://example.com/link2",
+                    "title": "Link 2",
+                    "description": "Description for Link 2"
+                },
+                {
+                    "url": "https://example.com/link3",
+                    "title": "Link 3",
+                    "description": "Description for Link 3"
+                }
+            ]
+        },
+        {
+            "id": "Object2",
+            "links": [
+                {
+                    "url": "https://example.com/link4",
+                    "title": "Link 4",
+                    "description": "Description for Link 4"
+                },
+                {
+                    "url": "https://example.com/link5",
+                    "title": "Link 5",
+                    "description": "Description for Link 5"
+                }
+            ]
+        }
+    ]
+}

@@ -1,16 +1,20 @@
 ---
-
+import Intro from "../components/intro/Intro.astro";
+import { THEME, TITLE } from "../content";
 ---
 
-<html lang="en">
+<html lang="en" class={THEME}>
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>{TITLE} | Linksplash</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<h1>{TITLE}</h1>
+        <div class="w-100 flex flex-col items-center">
+            <Intro />
+        </div>
 	</body>
 </html>
