@@ -1,0 +1,9 @@
+---
+interface Props {
+    imageSrc: string;
+}
+
+const { imageSrc } = Astro.props;
+---
+
+<img class="w-28 h-28 rounded-full object-cover shadow-sm border" src={`/${imageSrc}`} alt="Profile">
