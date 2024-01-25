@@ -13,6 +13,7 @@ export type Link = {
     title: string;
     description: string;
     url: string;
+    icon?: string;
 }
 
 // Section of links, including section title
