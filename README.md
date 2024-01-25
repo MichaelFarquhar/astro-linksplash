@@ -6,6 +6,8 @@
 
 **Astro LinkSplash** is a splash page template built on Astro 4 and Tailwindcss. It serves as a versatile starting template to create your own linktree-styled landing page.
 
+![Site Demo](https://imgur.com/doWnxEF.png)
+
 ## 🛠️ Installation
 
 To set up the template, you can either fork or clone the repository. Getting started with Astro is as simple as running two commands.
