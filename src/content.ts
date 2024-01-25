@@ -14,7 +14,7 @@ export const PROFILE_IMAGE: T.ProfileImage  = 'profile.jpg';
 export const BANNER: T.Banner               = 'banner.png';
 
 // Can be either 'light' or 'dark'
-export const THEME: T.Theme                 = 'light';
+export const THEME: T.Theme                 = 'dark';
 
 
 /* ==============
