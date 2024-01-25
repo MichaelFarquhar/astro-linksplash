@@ -1,5 +1,6 @@
 import type * as T from './content-types';
 
+// All content found in the top profile card
 export const TITLE: T.Title                 = 'Jon Snow';
 export const DESCRIPTION: T.Description     = 'A brooding and honorable warrior, serves as Lord Commander at Castle Black, guarding the realm from the dangers that lie beyond The Wall.';
 export const LOCATION: T.Location           = 'Castle Black';
@@ -14,7 +15,6 @@ export const BANNER: T.Banner               = 'banner.png';
 
 // Can be either 'light' or 'dark'
 export const THEME: T.Theme                 = 'light';
-
 
 
 /* ==============
