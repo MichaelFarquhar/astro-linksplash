@@ -1,28 +1,27 @@
 ---
-import Banner from "../components/banner/Banner.astro";
-import Profile from "../components/profile/Profile.astro";
-import Links from "../components/links/Links.astro";
-import { THEME, TITLE } from "../content";
+import Banner from '../components/banner/Banner.astro';
+import Profile from '../components/profile/Profile.astro';
+import Links from '../components/links/Links.astro';
+import { THEME, TITLE } from '../content';
 ---
 
 <html lang="en" class={THEME}>
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{TITLE} | Linksplash</title>
-	</head>
-	<body class="bg-zinc-100 dark:bg-zinc-900">
-		<Banner />
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        <title>{TITLE} | Linksplash</title>
+    </head>
+    <body class="bg-zinc-100 dark:bg-zinc-900">
+        <Banner />
         <div class="absolute top-28 w-full flex flex-col items-center">
             <Profile />
-            <div class="mt-12 flex flex-col items-center w-full">
+            <div class="mt-12 mb-24 px-6 flex flex-col items-center w-full">
                 <Links />
             </div>
-            <footer>Footer Test</footer>
         </div>
-	</body>
+    </body>
 </html>
 
 <style is:global>

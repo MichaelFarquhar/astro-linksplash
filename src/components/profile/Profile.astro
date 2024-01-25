@@ -8,7 +8,13 @@ import ProfilePicture from "./ProfilePicture.astro";
     <ProfilePicture imageSrc={PROFILE_IMAGE} />
     <div class="flex flex-col space-y-4">
         <h1 class="text-[26px] font-bold">{TITLE}</h1>
-        <p>{DESCRIPTION}</p>
+
+        { DESCRIPTION !== '' &&
+            <p>{DESCRIPTION}</p>
+        }
     </div>
-    <ProfileTags location={LOCATION} gender={GENDER}/>
+
+    { (LOCATION !== '' && GENDER !== '') &&
+        <ProfileTags location={LOCATION} gender={GENDER}/>
+    }
 </div>
