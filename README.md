@@ -4,7 +4,7 @@
     <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
 </p>
 
-**Astro LinkSplash** is a splash page template built on Astro 4 and Tailwindcss. It serves as a versatile starting template to create your own linktree-styled landing page.
+**Astro LinkSplash** is a splash page template built on Astro 4 and Tailwindcss. It serves as a versatile starting template to create your own linktree-styled landing page. You can view a live demo of the template [here](https://astro-linksplash.netlify.app/).
 
 ![Site Demo](https://imgur.com/doWnxEF.png)
 
