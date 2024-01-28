@@ -1,7 +1,13 @@
 <p align="center">
-    <img src="https://imgur.com/mPN9NWg.png" width="100"><br/><br/>
+    <img src="https://imgur.com/mPN9NWg.png" width="75"><br/><br/>
     <img src="https://img.shields.io/badge/astro-%232C2052.svg?style=for-the-badge&logo=astro&logoColor=white" alt="Astro" />
     <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
+</p>
+
+<p align="center">
+    <a href="https://github.com/MichaelFarquhar/astro-linksplash/"><img src="https://img.shields.io/badge/version-v1.0.0-8A2BE2" alt="version"></a>
+	<a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="license"></a>
+	<a href="https://github.com/MichaelFarquhar/astro-linksplash/issues?q=is%3Aopen+is%3Aissue"><img src="https://img.shields.io/github/issues/MichaelFarquhar/astro-linksplash.svg" alt="GitHub issues open"></a>
 </p>
 
 **Astro LinkSplash** is a splash page template built on Astro 4 and Tailwindcss. It serves as a versatile starting template to create your own linktree-styled landing page. You can view a live demo of the template [here](https://astro-linksplash.netlify.app/).
@@ -56,3 +62,10 @@ If you find any issues or have suggestions for improvements, feel free to open a
 ## 📄 License
 
 Licensed under the MIT license — see the [LICENSE](LICENSE) file for details.
+
+## 🔗 Useful Links
+
+- [Astro Documentation](https://docs.astro.build/en/core-concepts/project-structure/)
+- [Deploying Astro Website](https://docs.astro.build/en/guides/deploy/)
+- [Tailwind Documentation](https://tailwindcss.com/docs/installation)
+- [SimpleIcons - Large collection of SVG Icons](https://simpleicons.org/)
