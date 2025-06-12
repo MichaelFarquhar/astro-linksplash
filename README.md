@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/MichaelFarquhar/astro-linksplash/"><img src="https://img.shields.io/badge/version-v1.0.0-8A2BE2" alt="version"></a>
+    <a href="https://github.com/MichaelFarquhar/astro-linksplash/"><img src="https://img.shields.io/badge/version-v1.0.2-8A2BE2" alt="version"></a>
 	<a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="license"></a>
 	<a href="https://github.com/MichaelFarquhar/astro-linksplash/issues?q=is%3Aopen+is%3Aissue"><img src="https://img.shields.io/github/issues/MichaelFarquhar/astro-linksplash.svg" alt="GitHub issues open"></a>
 </p>
@@ -65,7 +65,7 @@ Licensed under the MIT license — see the [LICENSE](LICENSE) file for details.
 
 ## 🔗 Useful Links
 
-- [Astro Documentation](https://docs.astro.build/en/core-concepts/project-structure/)
-- [Deploying Astro Website](https://docs.astro.build/en/guides/deploy/)
-- [Tailwind Documentation](https://tailwindcss.com/docs/installation)
-- [SimpleIcons - Large collection of SVG Icons](https://simpleicons.org/)
+-   [Astro Documentation](https://docs.astro.build/en/core-concepts/project-structure/)
+-   [Deploying Astro Website](https://docs.astro.build/en/guides/deploy/)
+-   [Tailwind Documentation](https://tailwindcss.com/docs/installation)
+-   [SimpleIcons - Large collection of SVG Icons](https://simpleicons.org/)
