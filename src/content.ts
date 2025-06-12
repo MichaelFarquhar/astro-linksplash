@@ -50,9 +50,9 @@ export const LINKS: T.Links[] = [
                 icon: 'facebook.png'
             },
             {
-                title: 'Twitter',
-                description: 'My Twitter Page',
-                url: 'https://www.twitter.com'
+                title: 'X',
+                description: 'My X Page',
+                url: 'https://www.x.com'
             },
             {
                 title: 'Instagram',
