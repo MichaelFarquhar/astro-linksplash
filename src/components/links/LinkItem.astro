@@ -13,7 +13,7 @@ const formattedURL = (url: string) => url.replace(/^https?:\/\//, '');
 // Create Icon from either specific custom icon or website favicon based on the url
 const getIconImage = () => {
     if (icon == null || icon === '') {
-        return `https://api.faviconkit.com/${formattedURL(url)}/64`;
+        return `https://www.google.com/s2/favicons?domain=${url}&sz=64`;
     }
 
     return `/icons/${icon}`;
@@ -46,7 +46,7 @@ const getIconImage = () => {
     <div class="flex items-center space-x-2.5">
         <img
             class="w-7 h-7"
-            src={`https://api.faviconkit.com/${formattedURL(url)}/64`}
+            src={`https://www.google.com/s2/favicons?domain=${url}&sz=64`}
             alt={`${title} icon`}
         />
         <h3 class="text-2xl font-bold break-words">{title}</h3>
